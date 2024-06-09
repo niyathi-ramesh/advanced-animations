@@ -1,0 +1,23 @@
+figure {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
+
+  // Perspective is the distance between the screen and eyes of the viewer.
+  // Every time we want to use 3D transform, we need to use perspective to the parent element.
+  perspective: 500px;
+}
+
+img {
+  width: 300px;
+}
+
+.rotate-2 {
+  transition: transform 2s;
+
+  &:hover {
+    transform: rotateX(80deg);
+    // transform: rotateY(20deg);
+    // transform: rotateZ(20deg);
+  }
+}
