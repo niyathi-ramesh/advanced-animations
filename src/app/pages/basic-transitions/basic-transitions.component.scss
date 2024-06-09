@@ -1,0 +1,14 @@
+button {
+  height: 90px;
+  width: 300px;
+  color: white;
+  background-color: hotpink;
+  border: none;
+  font-size: 28px;
+  transition-property: background-color;
+  transition-duration: 3000ms;
+
+  &:hover {
+    background-color: green;
+  }
+}
