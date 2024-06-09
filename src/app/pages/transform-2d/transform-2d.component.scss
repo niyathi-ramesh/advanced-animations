@@ -1,0 +1,62 @@
+figure {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+img {
+  width: 300px;
+}
+
+.translate-1 {
+  transition: transform 2s;
+
+  &:hover {
+    transform: translate(200px, 200px);
+  }
+}
+
+.scale-2 {
+  transition: transform 2s;
+
+  &:hover {
+    transform: scale(0.5);
+  }
+}
+
+.rotate-3 {
+  transition: transform 2s;
+
+  &:hover {
+    // transform: rotate(-90deg);
+    // transform: rotate(-0.5turn);
+    transform: rotate(-400grad);
+  }
+}
+
+.skew-4 {
+  transition: transform 2s;
+
+  &:hover {
+    // transform: skewX(-30deg);
+    // transform: skewY(30deg);
+    // transform: skew(30deg, -30deg);
+    transform: skew(30deg);
+  }
+}
+
+.origin-5 {
+  transition: transform 2s;
+  // transform-origin: top left;
+  // transform-origin: top;
+  // transform-origin: top right;
+  // transform-origin: right;
+  // transform-origin: right bottom;
+  // transform-origin: bottom;
+  // transform-origin: bottom left;
+  // transform-origin: left;
+  transform-origin: 25% 25%;
+
+  &:hover {
+    transform: rotate(30deg);
+  }
+}

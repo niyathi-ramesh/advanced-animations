@@ -3,13 +3,18 @@
   width: 100%;
 
   header {
-    height: 50px;
+    height: 60px;
     width: 100%;
     text-align: center;
+
+    h1 {
+      margin: 0;
+      padding: 10px;
+    }
   }
 
   .content-wrapper {
-    height: calc(100% - 50px);
+    height: calc(100% - 60px);
     width: 100%;
     overflow-y: auto;
     display: flex;
@@ -19,5 +24,11 @@
     height: 100%;
     overflow-y: auto;
     width: 300px;
+  }
+
+  .router-wrapper {
+    height: 100%;
+    overflow: auto;
+    flex: 1;
   }
 }

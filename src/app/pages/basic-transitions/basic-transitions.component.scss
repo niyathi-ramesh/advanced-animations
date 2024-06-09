@@ -5,10 +5,20 @@ button {
   background-color: hotpink;
   border: none;
   font-size: 28px;
-  transition-property: background-color;
-  transition-duration: 3000ms;
+  // transition-property: background-color, color, width;
+  // transition-property: all;
+  // transition-duration: 1s;
+  // transition-delay: 2s;
+
+  // transition: background-color 2s ease, color 4s ease 2s,
+  //   border-radius 4s ease-out 6s;
+
+  transition: all ease-in 2s;
 
   &:hover {
     background-color: green;
+    color: black;
+    width: 600px;
+    border-radius: 50%;
   }
 }
