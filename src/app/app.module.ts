@@ -7,9 +7,10 @@ import { BasicTransitionsComponent } from './pages/basic-transitions/basic-trans
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { Transform2DComponent } from './pages/transform-2d/transform-2d.component';
 import { TransformThreeDComponent } from './pages/transform-three-d/transform-three-d.component';
+import { CreativeButtonsComponent } from './pages/creative-buttons/creative-buttons.component';
 
 @NgModule({
-  declarations: [AppComponent, BasicTransitionsComponent, Transform2DComponent, TransformThreeDComponent],
+  declarations: [AppComponent, BasicTransitionsComponent, Transform2DComponent, TransformThreeDComponent, CreativeButtonsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
