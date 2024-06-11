@@ -3,3 +3,12 @@ body {
   height: 100%;
   margin: 0;
 }
+
+.buttons-parent {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid cadetblue;
+}
